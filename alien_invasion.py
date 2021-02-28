@@ -35,7 +35,7 @@ class AlienInvasion:
 
 			# 让最近绘制的屏幕可见
 			pygame.display.flip()
-
+		# hhh
 if __name__ == '__main__':
 	# 创建游戏实例并运行游戏
 	ai = AlienInvasion()
