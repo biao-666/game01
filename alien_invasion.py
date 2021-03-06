@@ -29,9 +29,7 @@ class AlienInvasion:
 		"""开始游戏主循环"""
 		while True:
 			# 监视键盘和鼠标事件
-			for event in pygame.event.get():
-				if event.type == pygame.QUIT:
-					sys.exit()
+			self._check_event()
 
 			# 每次循环时都重绘屏幕
 			self.screen.fill(self.settings.bg_color)
@@ -39,6 +37,12 @@ class AlienInvasion:
 
 			# 让最近绘制的屏幕可见
 			pygame.display.flip()
+
+	def _check_event(self):
+		"""响应案件和鼠标事件。"""
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				sys.exit()
 
 if __name__ == '__main__':
 	# 创建游戏实例并运行游戏
