@@ -7,6 +7,7 @@ __author__ = 'cqb'
 
 
 import pygame
+from settings import Settings
 
 class Ship:
 	"""管理飞机的类"""
@@ -19,6 +20,7 @@ class Ship:
 		# 加载飞船图像并获取其外接矩形。
 		self.image = pygame.image.load('images/ship.bmp')
 		self.rect = self.image.get_rect()
+		# self.image.fill((230, 230, 230))
 
 		# 对于每艘新飞船，都将其放在屏幕底部的中央
 		self.rect.midbottom = self.screen_rect.midbottom

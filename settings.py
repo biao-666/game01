@@ -14,4 +14,11 @@ class Settings:
 		# 屏幕设置
 		self.screen_width = 1200
 		self.screen_height = 800
-		self.bg_color = (230, 230, 230)
+		# 浅灰色
+		# self.bg_color = (230, 230, 230)
+		# 红色
+		# self.bg_color = (250, 0, 0)
+		# 绿色
+		# self.bg_color = (0, 250, 0)
+		# 蓝色
+		self.bg_color = (0, 0, 250)

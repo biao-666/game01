@@ -23,5 +23,4 @@ class Test:
 print(Test)
 print(Test())
 # Test()
-a = Test()
-a.test002()
+a = Test().test002()
