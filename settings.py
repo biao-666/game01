@@ -22,3 +22,5 @@ class Settings:
 		# self.bg_color = (0, 250, 0)
 		# 蓝色
 		# self.bg_color = (0, 0, 250)
+		# 飞船设置
+		self.ship_speed = 1.5
